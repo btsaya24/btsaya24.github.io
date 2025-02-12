@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+    <title>Aya Naji </title>
+
+
+</head>
+
+
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="./index.html#home" class="nav__logo">Portfolio</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                <li class="nav__item">
+                    <a href="./index.html#home" class="nav__link">
+                        <i class="uil uil-estate nav__icon"></i> Accueil
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./index.html#about" class="nav__link">
+                        <i class="uil uil-user nav__icon"></i> Profil
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./index.html#skills" class="nav__link">
+                        <i class="uil uil-file-alt nav__icon"></i> Compétences
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./index.html#parcours" class="nav__link">
+                        <i class="uil uil-file-alt nav__icon"></i> Parcours
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./index.html#veille" class="nav__link">
+                        <i class="uil uil-briefcase-alt nav__icon"></i> Veille
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./index.html#projets" class="nav__link">
+                        <i class="uil uil-scenery nav__icon"></i> Projets
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./index.html#contact" class="nav__link">
+                        <i class="uil uil-message nav__icon"></i> Contact
+                    </a>
+                </li>
+            </ul>
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+
+
+        </div>
+        <div class="nav__btns">
+
+            <!-- THEME DARK  -->
+            <i class="uil uil-moon change-theme" onclick="darkTheme(this) ; iconTheme(this)" id="theme-button"></i>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<style>
+    .container__header__pj {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    .header__fond {
+        width: 60vh;
+    }
+
+    .element__pj {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+        margin: 5rem 0;
+    }
+
+    .acces__pj {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    @media screen and (max-width: 767px) {
+
+        .element__pj {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 2rem;
+            margin: 5rem 0;
+        }
+
+        .acces__pj {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 4rem;
+            margin-bottom: 3rem;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="container__leProjet container">
+
+        <div class="container__header__pj">
+            <img class="header__fond" src="./Images/bonbonLogo.jpg" alt="">
+        </div>
+        <div class="description__pj">
+            <h2 class="title__pj">Création d'un site de vente de bonbon en ligne lors de ma première année de BTS SIO SLAM</h2>
+        </div>
+
+        <div class="element__pj">
+
+            <div class="image__pj">
+                <img class="image-amex" src="./Images/Bonbon1.png" alt="">
+            </div>
+
+            <div class="text__pj">
+                Durant, la première année de BTS SIO SLAM, nous avons développé un site de vente de bonbon en ligne en HTML, CSS, Javascript et PHP,
+                et en utilisant le framework <a target="_blank" href="https://getbootstrap.com/" style="color: var(--first-color); font-weight: 600;">Bootstrap</a>, pour faciliter la conception du site. 
+                
+            </div>
+
+        </div>
+
+        <div class="element__pj">
+
+            <div class="text">
+                Nous avons comme mission de réaliser différentes fonctionnalités sur le site : 
+
+            <ul class="list__projet">
+                <li class="list-admin"> >  L'ajout d'un nouveau bonbon</li>
+                <li class="list-admin"> >  La modification d'un bonbon</li>
+                <li class="list-admin"> >  La suppression d'un bonbon</li>
+                <li class="list-admin"> >  La recherche d'un bonbon</li>
+                <li class="list-admin"> >  La connexion vers une page administrateur</li>
+            </ul>
+
+            </div>
+
+            <div class="image__pj">
+                <img class="image-amex" src="./Images/Bonbon2.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="container__suite">
+            <i class="uil uil-angle-down suite__pj"></i>
+        </div>
+
+        <div class="element__pj">
+
+            <div class="image__pj">
+                <img class="image-amex" src="./Images/BonbonBDD.png" alt="">
+            </div>
+
+            <div class="text__pj">
+                Toutes ces fonctionnalités nécessitaient la création d'une base de données sur Mysql, afin de stocker toutes les données nécessaires 
+                pour garantir le bon fonctionnement de ses actions. 
+            </div>
+
+        </div>
+
+
+        <div>
+            <!-- <img class="mockup" src="Images/mockup.png" alt=""> -->
+
+            <div class="acces__pj">
+                <a class="button button--flex" target="_blank" href="https://github.com/btsaya24/Projet_bonbon">
+                    Voir sur GitHub
+                </a>
+                <a class="button button--flex" href="./index.html#projet">
+                    Retour
+                    <!-- <i class="uil uil-estate" style="margin-left: 1rem"></i> -->
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Aya Naji</h1>
+                    <span class="footer__subtitle">Etudiante BTS SIO</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="./index.html#CV" class="footer__link">Profil</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#skills" class="footer__link">Compétences</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#parcours" class="footer__link">Parcours</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#veille" class="footer__link">Veille</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#projets" class="footer__link">Projet</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    
+                    <a href="https://www.twitter.com" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <p class="footer__copy">&#169; Tous les droits sont réservés, Aya Naji</p>
+        </div>
+    </footer>
+
+        <!-- <div class="fleche-remonter">
+            <i class="uil uil-arrow-up icon-fleche"></i>
+        </div> -->
+
+    <script src="./js/main.js"></script>
+
+</body>

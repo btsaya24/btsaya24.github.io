@@ -1,0 +1,27 @@
+###	Site icons 	###
+
+- https://thenounproject.com/
+
+- https://fontawesome.com/
+
+- https://icones8.fr/
+
+- https://www.flaticon.com/
+
+
+
+###	Meilleurs pages	     ###
+
+- https://icones8.fr/icon/set/populaires/material-outlined
+
+
+###	Icons 	  ###
+
+- Icons pour liste déroulante :
+--> 
+
+
+- Icon soleil (pour le mode jour)
+--> <img src="https://img.icons8.com/fluency-systems-regular/24/000000/sun--v1.png"/>  # Version non-animé (24px)
+--> <img src="https://img.icons8.com/fluency-systems-regular/24/000000/sun--v2.png"/>  # Version animé (24px)
+
